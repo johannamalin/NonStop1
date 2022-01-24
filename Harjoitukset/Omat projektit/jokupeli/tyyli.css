@@ -1,0 +1,44 @@
+{
+  padding: 0;
+  margin: 0;
+}
+
+#peli{
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#hahmo{
+  width: 20px;
+  height: 50px;
+  background-color: purple;
+  position: relative;
+  top: 150px;
+
+}
+  .animate{
+  animation: hyppy 500ms;
+}
+
+@keyframes hyppy{
+  0%{top: 150px;}
+  30%{top: 100px;}
+  70%{top: 100px;}
+  100%{top: 150px;}
+}
+
+#palikka{
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  position: relative;
+  top: 130px;
+  left: 480px;
+  animation: palikka 1s infinite linear;
+}
+
+@keyframes palikka{
+  0%{left:480px;}
+  100%{left:-40px;}
+}
