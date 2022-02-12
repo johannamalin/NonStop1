@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <title>Muistipeli javascriptistä</title>
+    <link rel="stylesheet" href="yhteinen.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <main>
+      <header>
+        <p id="vika"></p>
+        <nav class="navi"> <!-- sivuston sivut -->
+          <a href="yhteinenetu.html">Etusivu</a>
+          <a class="active" href="yhteinenpeli.html">Muistipeli</a>
+        </nav>
+      </header>
+
+    <h1 id="peliOhje">Valitse peli ja se tulostuu alas!</h2>
+
+    <div class="alusta">
+      <div id="aloita" class="aloita">
+          <div class="button"  id="pieni">4X4</div>
+          <div class="button"  id="keski">4X6</div>
+          <div class="button"  id="iso">6X6</div>
+      </div>
+          <div class="boksi" id="boksi"></div>
+          <div class="korttiPakka" id="korttiPakka"></div>
+      </div>
+
+      <footer> <!-- footer -->
+        <ul class="tekijat"> <!-- tekijät -->
+          <li>Antti</li>
+          <li>Iina</li>
+          <li>Johanna</li>
+        </ul>
+      </footer>
+    </main>
+    <script src="yhteinen.js" charset="utf-8"></script>
+  </body>
+</html>

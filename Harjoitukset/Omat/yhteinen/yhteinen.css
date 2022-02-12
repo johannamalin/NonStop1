@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html, main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  size: 1.5vw;
+  color: white;
+  background: lightgrey;
+  font-size: 16px;
+  cursor: default;
+}
+
+header {
+  background: #156d25;
+  color: #191970;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 2vw;
+  padding: 0.5vw;
+  margin: 0.2%;
+  border-radius: 1vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+ a:visited {
+  color: #86c892;
+  }
+
+ a:hover {
+  color: #c2c2d2;
+  }
+
+ a.active {
+    color: #024b0f;
+  }
+
+ .alusta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  .button {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 10px;
+    color: cadetblue;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+  .aloita {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 10px auto;
+    background-color: purple;
+    padding: 10px;
+    border: 5px solid pink;
+    border-radius: 20px;
+}
+
+.voitto {
+    width: 200px;
+    margin: 5px auto;
+    background-color: white;
+    padding: 10px;
+    border: 5px solid pink;
+    border-radius: 20px;
+    text-align: center;
+    color: cadetblue;
+    opacity: 0;
+}
+
+.korttiPakka {
+    /* width: 660px; */
+    height: 600px;
+    background: #ffffff;
+    padding: 32px;
+    border: 5px solid cadetblue;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+    opacity: 0;
+}
+
+.korttiPakka.pieni {
+    width: 660px;
+    opacity: 1;
+}
+
+.korttiPakka.keski {
+    width: 560px;
+    opacity: 1;
+}
+
+.korttiPakka.iso {
+    width: 660px;
+    opacity: 1;
+}
+
+.kortti {
+    height: 125px;
+    width: 125px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.kortti.flipped {
+    transform: rotateY(180deg);
+}
+
+.kortti .front,
+.kortti .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    background-color: cadetblue;
+    font-size: 4em;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.kortti .back {
+    height: 100%;
+    width: 100%;
+    color: cadetblue;
+    text-align: center;
+    font-size: 4em;
+    position: absolute;
+    background-color: white;
+    border: 5px solid cadetblue;
+    transform: rotateY(180deg);
+}
+
+.kortti.match .back {
+    opacity: 0.5;
+}
+
+.kortti.match {
+    cursor: default;
+    color: cadetblue;
+}
+
+.kortti.bounce-out {
+    animation-name: bounce-out;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bounce-out {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(.95);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(.3);
+    }
+}
+
+  h1 {
+  margin: 0;
+  color: #673ab7;
+  font-weight: 600;
+  font-size: 36px;
+  text-shadow: -2px 2px 2px #000f4a;
+  filter: dropshadow(color=#ffa060, offx=-2, offy=2);
+  text-align: center;
+  }
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  color: #DCDCDC;
+  background: #024b0f;
+ }
