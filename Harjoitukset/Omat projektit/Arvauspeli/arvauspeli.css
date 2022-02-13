@@ -1,0 +1,27 @@
+html {
+   font-family: serif;
+   background-color: pink;
+}
+
+body {
+  width: 50%;
+  max-width: 500px;
+  min-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  width: 50%;
+  max-width: 500px;
+  min-width: 480px;
+}
+
+h1, h2 {
+ color: blue;
+}
+
+p {
+ text-decoration: underline;
+ font-size: 24px;
+}
