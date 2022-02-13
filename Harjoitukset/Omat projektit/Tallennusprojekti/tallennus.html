@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="tallennus.css" />
+    <script src="tallennus.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <h1>Lähetä tietoja paikalliseen varastoon!</h1>
+
+<fieldset>
+ <form id="tiedotFormi" onsubmit="signUp(event)"><br>
+
+  <td>  <label for="etunimi"></label></td>
+  <input id="etunimi" name="etunimi" type="text" placeholder="Etunimi" required/><br>
+
+<td>  <label for="sukunimi"></label></td>
+  <input id="sukunimi" name="sukunimi" type="text" placeholder="Sukunimi" required/><br>
+
+<td>  <label for="osoite"></label></td>
+  <input id="osoite" name="osoite" type="text" placeholder="Lähiosoite" required/><br>
+
+<td>  <label for="posti"></label></td>
+  <input id="posti" name="posti" type="text" placeholder="Postinumero" required/><br>
+
+<td>  <label for="toimipaikka"></label></td>
+  <input id="toimipaikka" name="toimipaikka" type="text" placeholder="Postitoimipaikka" required/><br>
+
+<td>  <label for="numero"></label></td>
+  <input id="numero" name="numero" type="text" placeholder="Puhelinnumero" required/><br>
+
+<td>  <label for="email"></label></td>
+  <input id="email" name="email" type="email" placeholder="Sähköpostiosoite" required/><br>
+
+  <button type="submit">Lähetä!</button>
+ </form>
+</fieldset>
+
+
+  <h1>Paikallinen varasto!</h1>
+  <div id="varasto"></div>
+
+  </body>
+</html>
