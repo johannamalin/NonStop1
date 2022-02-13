@@ -1,0 +1,70 @@
+header {
+  background-color: #EDAFB8;
+  width: 98%;
+  height: 200px;
+  border: solid 4px #A14EBF;
+  border-style: dotted;
+  font-size: 2vw;
+  padding: 0.5vw;
+  margin: 0.2%;
+  border-radius: 1vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+header img {
+  width: 150px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+header a {
+  font-family: 'Mali', cursive;
+  padding-left: 200px;
+  color: white;
+}
+
+body {
+  background-image: url('tausta1.jpg');
+}
+
+.grid {
+  display: flex;
+flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+align-items: center;
+display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+footer {
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #EDAFB8;
+  width: 99%;
+  height: 80px;
+  border: solid 4px #A14EBF;
+  border-style: dotted;
+  border-radius: 1vw;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  font-family: 'Mali', cursive;
+  display: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  padding: 0.5vw;
+  margin: 0.2%;
+  margin-left: 5px;
+  text-decoration: underline;
+}
