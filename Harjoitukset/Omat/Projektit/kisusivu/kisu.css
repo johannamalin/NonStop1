@@ -1,0 +1,124 @@
+
+body {
+  background-image: url('tausta1.jpg');
+}
+
+header {
+  background-color: #EDAFB8;
+  width: 98%;
+  height: 200px;
+  border: solid 4px #A14EBF;
+  border-style: dotted;
+  font-size: 2vw;
+  padding: 0.5vw;
+  margin: 0.2%;
+  border-radius: 1vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+header img {
+  width: 150px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#media {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+header a {
+  font-family: 'Mali', cursive;
+  padding-left: 200px;
+  color: white;
+}
+
+#otsikko {
+  text-align: center;
+  font-family: 'Mali', cursive;
+}
+
+#etuotsikot {
+  text-align: center;
+  font-family: 'Mali', cursive;
+}
+
+p {
+  font-size: 17px;
+  text-align: center;
+  height: 50px;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+#lista p {
+
+}
+
+#lista h4 {
+text-align: center;
+font-family: 'Ubuntu Mono', monospace;
+color: black;
+text-shadow: 1px;
+text-decoration-color: #A14EBF;
+font-size: 25px;
+}
+
+#tieto {
+  font-size: 18px;
+  text-align: center;
+  height: 50px;
+  text-align: center;
+}
+
+#tieto h3 {
+  color: #A14EBF;
+  font-family: 'Mali', cursive;
+}
+
+#lauseke {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  font-family: 'Mali', cursive;
+  color: #A14EBF;
+  text-align: center;
+}
+
+#linkit {
+position: fixed;
+text-align: left;
+font-size: 30px;
+}
+
+footer {
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #EDAFB8;
+  width: 99%;
+  height: 80px;
+  border: solid 4px #A14EBF;
+  border-style: dotted;
+  border-radius: 1vw;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  font-family: 'Mali', cursive;
+  display: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  padding: 0.5vw;
+  margin: 0.2%;
+  margin-left: 5px;
+  text-decoration: underline;
+}
