@@ -3,6 +3,7 @@ function arvo(){
   var pakka = ['&#9828;', '&#9827;', '&#9826;', '&#9825;'];
   var tiedot = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
   laskuri = 0;
+
   for(m = 0; m < pakka.length; m++)
   {
     for(n = 0; n < tiedot.length; n++)
@@ -24,4 +25,5 @@ function arvo(){
       kortit[l] = temp;
   }
   document.getElementById('deck').innerHTML = '<p>'+kortti+'</p>';
+
 }
